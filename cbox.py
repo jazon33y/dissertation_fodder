@@ -41,7 +41,7 @@ class pbox(object):
 			c_l = cartesian_p(self.left,b.left).apply(lambda x: x[0] * x[1],axis=1).values
 			c_r = cartesian_p(self.right,b.right).apply(lambda x: x[0] * x[1],axis=1).values
 			
-			# Condensation via Williamson and Downs 1990 
+			# Condensation via Williamson and Downs 1990 Ferson 2016
 			m = self.steps
 			p = b.steps
 			n = self.steps
